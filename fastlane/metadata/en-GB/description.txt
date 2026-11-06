@@ -1,0 +1,13 @@
+Record meals and follow your nutrition with PockeMoon, a food journal for iPhone and iPad with a companion Apple Watch app.
+
+JOURNAL YOUR PORTIONS
+Choose a food, set its weight, meal and date, then save it to your journal. Edit or delete entries and repeat recent foods. See daily energy, portion count, protein, fat and carbohydrate totals. Set an optional daily calorie target to see your progress.
+
+FIND FOODS
+Search the bundled and saved catalogue by name, brand or barcode. Search Open Food Facts online, scan a package barcode or enter a product label by hand. Nutrients are scaled to the weight you log; missing values are identified in the journal.
+
+EXPLORE YOUR TRENDS
+View a Monday-to-Sunday week with days logged, portion count, a daily energy chart and a daily log. Browse earlier weeks and open a day in the journal.
+
+USE YOUR WATCH AND WIDGET
+See today's energy and portion count on Apple Watch and confirm a recent food to repeat it. Add a small or medium widget to see today's totals; the medium widget also displays protein, fat and carbohydrates.

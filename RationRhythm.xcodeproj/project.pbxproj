@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A5396F34DD57B9EAE99717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BE944BA2265E4D440468EE /* Assets.xcassets */; };
+		1089BEB9C3A4ECBD45ADC272 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918FE274BC6AE8BD028710F7 /* Journal.swift */; };
+		1647BDC2914A3FAFC8BBCEE9 /* OfflineProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 34EEF89907EC292A62BCC6DE /* OfflineProducts.json */; };
+		16658285CFF10BCD2D551845 /* FoodScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081D4D1E05DE1CC5FA6E369 /* FoodScanner.swift */; };
+		2A388FF876BE6F4ACEE22954 /* RhythmWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D03CAFF1F585A45D424BA50 /* RhythmWatch.swift */; };
+		2D5585F80DB53FC8248F4DF3 /* FoodCatalogPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6A2B2FFBFBE42CC179ADD /* FoodCatalogPicker.swift */; };
+		2E4DCE12C77634B47D10ADB6 /* RationRhythmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55F8AC0601162D5431B3E1 /* RationRhythmApp.swift */; };
+		382D83384A362DC4B9D4650B /* Visuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AB3930743A76B27406A7BB /* Visuals.swift */; };
+		46C0589494F08D8CC69F70AA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C5ED51BAC50CA6D8FD5B306E /* PrivacyInfo.xcprivacy */; };
+		4A56CBD8ACAE3C5991C90173 /* OfflineProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 34EEF89907EC292A62BCC6DE /* OfflineProducts.json */; };
+		7015F143341D2E899E354833 /* JournalJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3BA3BB4EF92241D6293E08 /* JournalJourneyTests.swift */; };
+		812024E1B928CC9E86D485D7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9F80B7FFE72FA9FEF5C97206 /* PrivacyInfo.xcprivacy */; };
+		826FAAEC44B5582FEBFD37EB /* FoodCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C042AC79EAD0024E7B3A915 /* FoodCatalog.swift */; };
+		9053B2148D66C68EA652857A /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918FE274BC6AE8BD028710F7 /* Journal.swift */; };
+		9AB4FD5059E729886C5FAA90 /* RhythmWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B06293BB3E7520F81D5F12 /* RhythmWidget.swift */; };
+		AF04A67609D6771610C1A0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEC5708A1C38218BB3FE57C /* Assets.xcassets */; };
+		B6C1F85474710A46AE5C8E6D /* RationRhythmWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1749295E4D5D48AC3466DA8D /* RationRhythmWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDF7D36166AE62067F7DB52D /* PortionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A9A6C7A7F7290902F7CEB /* PortionEditor.swift */; };
+		D83F429AE93732BEE82C85B3 /* RationRhythmWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C5C58D21DE91016257AAAF34 /* RationRhythmWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D846C42C80AF76BBEB62F016 /* JournalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE6BA36A8EC067EA4941DD /* JournalStore.swift */; };
+		E7DFF1C7109C0754C51E6C43 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918FE274BC6AE8BD028710F7 /* Journal.swift */; };
+		EF09A3EF2638C24B7D87AE15 /* HistoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7451A2B871FE554FFCE71 /* HistoryPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		085A3DF1F75C7F5D07E9E978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55EC7FBE1157B1D0FD1A51AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5DDD0966DD4336239FB479;
+			remoteInfo = RationRhythmWatch;
+		};
+		56B88991756690867ACE495E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55EC7FBE1157B1D0FD1A51AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F93621258097FF08E7E812A;
+			remoteInfo = RationRhythmWidget;
+		};
+		6F3670D8A32BC3514D6BE90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55EC7FBE1157B1D0FD1A51AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F91A51D6CB58330207173AA;
+			remoteInfo = RationRhythm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2850AB034D471E48689830C2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6C1F85474710A46AE5C8E6D /* RationRhythmWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753EDC4FBF59F4FF4EB8F192 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D83F429AE93732BEE82C85B3 /* RationRhythmWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02F6A2B2FFBFBE42CC179ADD /* FoodCatalogPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCatalogPicker.swift; sourceTree = "<group>"; };
+		1749295E4D5D48AC3466DA8D /* RationRhythmWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = RationRhythmWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC8EED015287EA02C9A30E5 /* RationRhythmUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RationRhythmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE15DB90C7D2C20B096FA43 /* RationRhythm.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RationRhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EEF89907EC292A62BCC6DE /* OfflineProducts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OfflineProducts.json; sourceTree = "<group>"; };
+		3E3BA3BB4EF92241D6293E08 /* JournalJourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalJourneyTests.swift; sourceTree = "<group>"; };
+		4081D4D1E05DE1CC5FA6E369 /* FoodScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScanner.swift; sourceTree = "<group>"; };
+		45575562EEB0B0A6EF086DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45AB3930743A76B27406A7BB /* Visuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visuals.swift; sourceTree = "<group>"; };
+		4C042AC79EAD0024E7B3A915 /* FoodCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCatalog.swift; sourceTree = "<group>"; };
+		5C55F8AC0601162D5431B3E1 /* RationRhythmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RationRhythmApp.swift; sourceTree = "<group>"; };
+		5D03CAFF1F585A45D424BA50 /* RhythmWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmWatch.swift; sourceTree = "<group>"; };
+		5D6B6E2C8E28FA6E368EC5E2 /* RationRhythm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RationRhythm.entitlements; sourceTree = "<group>"; };
+		69BE944BA2265E4D440468EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BEC5708A1C38218BB3FE57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918FE274BC6AE8BD028710F7 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		99B06293BB3E7520F81D5F12 /* RhythmWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmWidget.swift; sourceTree = "<group>"; };
+		9F80B7FFE72FA9FEF5C97206 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B4D7451A2B871FE554FFCE71 /* HistoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPage.swift; sourceTree = "<group>"; };
+		C5C58D21DE91016257AAAF34 /* RationRhythmWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RationRhythmWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5ED51BAC50CA6D8FD5B306E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D39A9A6C7A7F7290902F7CEB /* PortionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionEditor.swift; sourceTree = "<group>"; };
+		D3FE6BA36A8EC067EA4941DD /* JournalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalStore.swift; sourceTree = "<group>"; };
+		E2FC0346BD68FBBDAD01F162 /* RationRhythmWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RationRhythmWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A6C8FA80C47B43F9BA0812E = {
+			isa = PBXGroup;
+			children = (
+				B279C17DE557BC744C4D1BD2 /* Common */,
+				43184A8973CE5A99E2406894 /* Phone */,
+				A2C10F0C56E65D3D15C22311 /* SharedCatalog */,
+				254F7716C23CE246B7569CB2 /* UITests */,
+				DF9D11752F9A84B5E636C0A3 /* Watch */,
+				25A476A8D162761FF5E90059 /* Widget */,
+				324C125692D008748BD192E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254F7716C23CE246B7569CB2 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E3BA3BB4EF92241D6293E08 /* JournalJourneyTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		25A476A8D162761FF5E90059 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				45575562EEB0B0A6EF086DA2 /* Info.plist */,
+				E2FC0346BD68FBBDAD01F162 /* RationRhythmWidget.entitlements */,
+				99B06293BB3E7520F81D5F12 /* RhythmWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		324C125692D008748BD192E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE15DB90C7D2C20B096FA43 /* RationRhythm.app */,
+				1BC8EED015287EA02C9A30E5 /* RationRhythmUITests.xctest */,
+				C5C58D21DE91016257AAAF34 /* RationRhythmWatch.app */,
+				1749295E4D5D48AC3466DA8D /* RationRhythmWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43184A8973CE5A99E2406894 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				69BE944BA2265E4D440468EE /* Assets.xcassets */,
+				B4D7451A2B871FE554FFCE71 /* HistoryPage.swift */,
+				D3FE6BA36A8EC067EA4941DD /* JournalStore.swift */,
+				D39A9A6C7A7F7290902F7CEB /* PortionEditor.swift */,
+				9F80B7FFE72FA9FEF5C97206 /* PrivacyInfo.xcprivacy */,
+				5D6B6E2C8E28FA6E368EC5E2 /* RationRhythm.entitlements */,
+				5C55F8AC0601162D5431B3E1 /* RationRhythmApp.swift */,
+				45AB3930743A76B27406A7BB /* Visuals.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		A2C10F0C56E65D3D15C22311 /* SharedCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				4C042AC79EAD0024E7B3A915 /* FoodCatalog.swift */,
+				02F6A2B2FFBFBE42CC179ADD /* FoodCatalogPicker.swift */,
+				4081D4D1E05DE1CC5FA6E369 /* FoodScanner.swift */,
+				34EEF89907EC292A62BCC6DE /* OfflineProducts.json */,
+			);
+			path = SharedCatalog;
+			sourceTree = "<group>";
+		};
+		B279C17DE557BC744C4D1BD2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				918FE274BC6AE8BD028710F7 /* Journal.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DF9D11752F9A84B5E636C0A3 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				7BEC5708A1C38218BB3FE57C /* Assets.xcassets */,
+				C5ED51BAC50CA6D8FD5B306E /* PrivacyInfo.xcprivacy */,
+				5D03CAFF1F585A45D424BA50 /* RhythmWatch.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F91A51D6CB58330207173AA /* RationRhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E045ABEE7339213B7F88C91 /* Build configuration list for PBXNativeTarget "RationRhythm" */;
+			buildPhases = (
+				0DE543F61C5B23B44BCA894D /* Sources */,
+				F47B7844D2358E6DC52B17B9 /* Resources */,
+				2850AB034D471E48689830C2 /* Embed Foundation Extensions */,
+				753EDC4FBF59F4FF4EB8F192 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BFC83F2B2270654E193408 /* PBXTargetDependency */,
+				F8ED7836D4FDF98376C2ADAC /* PBXTargetDependency */,
+			);
+			name = RationRhythm;
+			packageProductDependencies = (
+			);
+			productName = RationRhythm;
+			productReference = 1CE15DB90C7D2C20B096FA43 /* RationRhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F93621258097FF08E7E812A /* RationRhythmWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230C97CDB87B71938513E70F /* Build configuration list for PBXNativeTarget "RationRhythmWidget" */;
+			buildPhases = (
+				99336BFFB5854BA9CF135F60 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RationRhythmWidget;
+			packageProductDependencies = (
+			);
+			productName = RationRhythmWidget;
+			productReference = 1749295E4D5D48AC3466DA8D /* RationRhythmWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		95A1D97B79DA1A19C1ABEB97 /* RationRhythmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1115586C67F0C3743BD03E16 /* Build configuration list for PBXNativeTarget "RationRhythmUITests" */;
+			buildPhases = (
+				267D1479993AB48A3D5DB27F /* Sources */,
+				C0228DA48F93968F1A0E42CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C9B99AC41B6B1E8C80E3D3 /* PBXTargetDependency */,
+			);
+			name = RationRhythmUITests;
+			packageProductDependencies = (
+			);
+			productName = RationRhythmUITests;
+			productReference = 1BC8EED015287EA02C9A30E5 /* RationRhythmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BA5DDD0966DD4336239FB479 /* RationRhythmWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D87FC3A0481A5D41660C51C /* Build configuration list for PBXNativeTarget "RationRhythmWatch" */;
+			buildPhases = (
+				D8AE2449A0EC5805D687D42C /* Sources */,
+				34C0B80E3B05F315ECDB5F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RationRhythmWatch;
+			packageProductDependencies = (
+			);
+			productName = RationRhythmWatch;
+			productReference = C5C58D21DE91016257AAAF34 /* RationRhythmWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55EC7FBE1157B1D0FD1A51AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0F91A51D6CB58330207173AA = {
+						ProvisioningStyle = Automatic;
+					};
+					1F93621258097FF08E7E812A = {
+						ProvisioningStyle = Automatic;
+					};
+					95A1D97B79DA1A19C1ABEB97 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F91A51D6CB58330207173AA;
+					};
+					BA5DDD0966DD4336239FB479 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 048EE9907A32542E1A9C9CDD /* Build configuration list for PBXProject "RationRhythm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0A6C8FA80C47B43F9BA0812E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 324C125692D008748BD192E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F91A51D6CB58330207173AA /* RationRhythm */,
+				1F93621258097FF08E7E812A /* RationRhythmWidget */,
+				BA5DDD0966DD4336239FB479 /* RationRhythmWatch */,
+				95A1D97B79DA1A19C1ABEB97 /* RationRhythmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C0B80E3B05F315ECDB5F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF04A67609D6771610C1A0FF /* Assets.xcassets in Resources */,
+				46C0589494F08D8CC69F70AA /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0228DA48F93968F1A0E42CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A56CBD8ACAE3C5991C90173 /* OfflineProducts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47B7844D2358E6DC52B17B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A5396F34DD57B9EAE99717 /* Assets.xcassets in Resources */,
+				1647BDC2914A3FAFC8BBCEE9 /* OfflineProducts.json in Resources */,
+				812024E1B928CC9E86D485D7 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE543F61C5B23B44BCA894D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826FAAEC44B5582FEBFD37EB /* FoodCatalog.swift in Sources */,
+				2D5585F80DB53FC8248F4DF3 /* FoodCatalogPicker.swift in Sources */,
+				16658285CFF10BCD2D551845 /* FoodScanner.swift in Sources */,
+				EF09A3EF2638C24B7D87AE15 /* HistoryPage.swift in Sources */,
+				9053B2148D66C68EA652857A /* Journal.swift in Sources */,
+				D846C42C80AF76BBEB62F016 /* JournalStore.swift in Sources */,
+				CDF7D36166AE62067F7DB52D /* PortionEditor.swift in Sources */,
+				2E4DCE12C77634B47D10ADB6 /* RationRhythmApp.swift in Sources */,
+				382D83384A362DC4B9D4650B /* Visuals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267D1479993AB48A3D5DB27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7015F143341D2E899E354833 /* JournalJourneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99336BFFB5854BA9CF135F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1089BEB9C3A4ECBD45ADC272 /* Journal.swift in Sources */,
+				9AB4FD5059E729886C5FAA90 /* RhythmWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8AE2449A0EC5805D687D42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DFF1C7109C0754C51E6C43 /* Journal.swift in Sources */,
+				2A388FF876BE6F4ACEE22954 /* RhythmWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25BFC83F2B2270654E193408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F93621258097FF08E7E812A /* RationRhythmWidget */;
+			targetProxy = 56B88991756690867ACE495E /* PBXContainerItemProxy */;
+		};
+		F7C9B99AC41B6B1E8C80E3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F91A51D6CB58330207173AA /* RationRhythm */;
+			targetProxy = 6F3670D8A32BC3514D6BE90F /* PBXContainerItemProxy */;
+		};
+		F8ED7836D4FDF98376C2ADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5DDD0966DD4336239FB479 /* RationRhythmWatch */;
+			targetProxy = 085A3DF1F75C7F5D07E9E978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0883A1BD6FB8B67D7F735936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_CFBundleDisplayName = PockeMoon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.rationrhythm.journal;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		2671C69657BBCE3F008BB677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RationRhythm;
+			};
+			name = Debug;
+		};
+		34B40597117C7E113C8B7400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Phone/RationRhythm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = PockeMoon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan the barcode on a package to look up its food label.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50BCC618098F49A530F3EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Phone/RationRhythm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = PockeMoon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan the barcode on a package to look up its food label.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		627E57E70DAFEACB7106D29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Widget/RationRhythmWidget.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FF02E5162F301FB9E9F9AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		916E979A4C23DDA7B7DD546C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RationRhythm;
+			};
+			name = Release;
+		};
+		B33D54A1F05C1A901E5A150B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Widget/RationRhythmWidget.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0704D4755ED6DAB9A55954E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DCFED5E0DC46EE5D4533D3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_CFBundleDisplayName = PockeMoon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.rationrhythm.journal;
+				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048EE9907A32542E1A9C9CDD /* Build configuration list for PBXProject "RationRhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0704D4755ED6DAB9A55954E /* Debug */,
+				8FF02E5162F301FB9E9F9AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1115586C67F0C3743BD03E16 /* Build configuration list for PBXNativeTarget "RationRhythmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2671C69657BBCE3F008BB677 /* Debug */,
+				916E979A4C23DDA7B7DD546C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		230C97CDB87B71938513E70F /* Build configuration list for PBXNativeTarget "RationRhythmWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33D54A1F05C1A901E5A150B /* Debug */,
+				627E57E70DAFEACB7106D29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D87FC3A0481A5D41660C51C /* Build configuration list for PBXNativeTarget "RationRhythmWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFED5E0DC46EE5D4533D3D0 /* Debug */,
+				0883A1BD6FB8B67D7F735936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7E045ABEE7339213B7F88C91 /* Build configuration list for PBXNativeTarget "RationRhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B40597117C7E113C8B7400 /* Debug */,
+				50BCC618098F49A530F3EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55EC7FBE1157B1D0FD1A51AD /* Project object */;
+}
