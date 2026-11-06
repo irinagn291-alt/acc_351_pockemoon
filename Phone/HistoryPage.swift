@@ -136,10 +136,10 @@ struct GoalPage: View {
             }.padding(20).rhythmPanel(radius: 22)
             SectionHeading(title: "Made for your day", mark: "Your journal")
             HStack(alignment: .top, spacing: 13) {
-                FoodSymbol(icon: "applewatch", color: Ink.green)
+                FoodSymbol(icon: "rectangle.grid.2x2", color: Ink.green)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("With you, on your wrist").font(.headline)
-                    Text("Your journal stays on this device. Your paired Apple Watch receives today’s totals and your recent portions.")
+                    Text("Your day, at a glance").font(.headline)
+                    Text("Your journal stays on this device. Add a Home Screen widget to see today’s calories and portions.")
                         .font(.subheadline).foregroundStyle(Ink.muted)
                 }
             }.padding(18).rhythmPanel()

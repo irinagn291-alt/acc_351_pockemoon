@@ -77,7 +77,6 @@ struct DaySummary {
 
 struct Journal: Codable {
     var entries: [Portion] = []
-    var recentWatchActions: [UUID]?
     var target: Double?
     func day(_ date: Date) -> DaySummary {
         .init(entries: entries.filter { Calendar.current.isDate($0.date, inSameDayAs: date) }.sorted { $0.date > $1.date })
@@ -86,22 +85,6 @@ struct Journal: Codable {
         var seen = Set<String>()
         return Array(entries.sorted { $0.date > $1.date }.filter { seen.insert($0.code).inserted }.prefix(5))
     }
-    var watchPacket: WristPacket {
-        let summary = day(.now)
-        return .init(date: .now, kcal: summary.value(\.kcal), count: summary.entries.count, partial: summary.incomplete, recent: recent, target: target,
-                     acknowledged: recentWatchActions.map { Array($0.suffix(64)) })
-    }
-}
-
-struct WristPacket: Codable {
-    var date: Date
-    var kcal: Double?
-    var count: Int
-    var partial: Bool
-    var recent: [Portion]
-    var target: Double?
-    var acknowledged: [UUID]?
-    static let empty = Self(date: .now, kcal: 0, count: 0, partial: false, recent: [], target: nil)
 }
 
 enum JournalFiles {

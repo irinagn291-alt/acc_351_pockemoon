@@ -1,4 +1,4 @@
-<!-- gf-brief source=d47cadf2058e4a65d90c5980351718ce10a9b5fa3224b797f39369c76c2ff7b7 written=2026-11-07T00:30:19+03:00 -->
+<!-- gf-brief source=fe0a954622b4bf7202c0c59f6fc3c8ca2908be6660c81216c5d2be61e89e2ced written=2026-11-07T01:41:10+03:00 -->
 # PockeMoon
 
 ## What it is
@@ -59,11 +59,7 @@ Under “Meal & time”, “Meal” selects “Breakfast”, “Lunch”, “Din
 
 “Your rhythm” says “A journal that works your way.” Under “Personal target”, the “Personal calorie target” field has the placeholder “No target”. “Save target” saves a whole-number daily calorie target or clears it when the field is blank; after saving, it says “Saved”.
 
-“With you, on your wrist” explains: “Your journal stays on this device. Your paired Apple Watch receives today’s totals and your recent portions.” “Open Food Facts catalog” opens the catalog website. The screen also says “Nutrient totals scale with portion weight. A dash means the label has no value for that nutrient.”
-
-### Apple Watch
-
-“PockeMoon” shows “FOOD JOURNAL”, today’s calories and portion count, target progress when set, and “Includes known values only” when totals are incomplete. “Repeat a portion” lists recent foods. Tapping one opens a sheet with “Log for today” and “Cancel”; logging sends the repeated portion to the iPhone or queues it until synchronization.
+“Your day, at a glance” explains: “Your journal stays on this device. Add a Home Screen widget to see today’s calories and portions.” “Open Food Facts catalog” opens the catalog website. The screen also says “Nutrient totals scale with portion weight. A dash means the label has no value for that nutrient.”
 
 ### Home Screen widget
 
@@ -76,7 +72,6 @@ The small and medium “PockeMoon” widgets show “DAILY RHYTHM”, today’s 
 - View “Daily energy”, “Protein”, “Fat”, “Carbs” and a “Meal timeline”.
 - Set an optional “Personal target”.
 - Review weekly “Trends” and open days from the chart or “Daily log”.
-- View today’s totals and repeat recent portions on Apple Watch.
 - View today’s calories and macros in a Home Screen widget.
 
 ## Behaviours that can look like bugs
@@ -89,7 +84,6 @@ The small and medium “PockeMoon” widgets show “DAILY RHYTHM”, today’s 
 - “Save target” is disabled for an invalid value and shows “Enter a whole number from 1 to 20,000.” Enter a value in that range or leave the field blank.
 - “Next week” is disabled in the current week. Future days cannot be opened, and dates and times cannot be set in the future.
 - Missing nutrient values appear as “—”; totals use the values that are available. Enter missing values from the package when creating a product if they are known.
-- On Apple Watch, the initial “Repeat a portion” area says “Log your first portion in the iPhone journal.” After a portion is logged and synchronized, recent foods appear. A repeat may say “Portion queued. Your iPhone will log it when it syncs.”
 - If journal storage fails, a “Journal” alert can say “Couldn’t open your journal. Restart the app to try again.”, “Journal storage is unavailable. Restart the app to try again.” or “Couldn’t save your changes. Check available storage and try again.” Dismiss it with “OK” and follow the message.
 
 ## Starter content and resume
@@ -106,7 +100,7 @@ Login or accounts, in-app purchases, ads, analytics, an account deletion flow an
 
 ## Data and support
 
-The journal and target stay on the device and are shared with the paired Apple Watch and the app’s widget. Catalog searches and barcode lookups contact Open Food Facts, and product images may load from the internet. There is no on-screen Contact or Support control.
+The journal and target stay on the device and are shared with the app’s widget. Catalog searches and barcode lookups contact Open Food Facts, and product images may load from the internet. There is no on-screen Contact or Support control.
 
 ## Scanning and health
 
@@ -116,7 +110,7 @@ The app shows food-label calories and macronutrients, scaled to the portion weig
 
 ## Platform
 
-The app supports iPhone and iPad on iOS 17.0 or later, with a companion app for Apple Watch on watchOS 10.0 or later. iPhone supports portrait and both landscape orientations; iPad also supports upside-down portrait.
+The app supports iPhone and iPad on iOS 17.0 or later. iPhone supports portrait and both landscape orientations; iPad also supports upside-down portrait.
 
 The interface is in English, with dates and numbers displayed using English formatting in the principal journal controls. The journal uses the device’s local calendar for days and meal timing; weekly trends run Monday through Sunday. No region-specific restrictions are shown.
 

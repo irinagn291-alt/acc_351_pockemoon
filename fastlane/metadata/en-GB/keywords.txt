@@ -1,1 +1,1 @@
-food,nutrition,calories,meals,portions,macros,tracker,diary,watch,widget
+food,nutrition,calories,meals,portions,macros,tracker,diary,widget

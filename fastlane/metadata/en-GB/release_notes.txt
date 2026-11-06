@@ -1,1 +1,1 @@
-Record food portions, view daily totals and weekly trends, and access today's summary on Apple Watch and in a widget.
+Record food portions, view daily totals and weekly trends, and access today's summary in a Home Screen widget.

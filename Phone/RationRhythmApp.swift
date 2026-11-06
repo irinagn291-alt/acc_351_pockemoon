@@ -83,7 +83,6 @@ enum JournalTab { case day, history, settings }
 
 struct JournalHome: View {
     @EnvironmentObject var store: JournalStore
-    @Environment(\.scenePhase) var phase
     @State private var tab = JournalTab.day
     @State private var day = Date()
     @State private var picking = false
@@ -136,7 +135,6 @@ struct JournalHome: View {
         .alert("Journal", isPresented: Binding(get: { store.problem != nil }, set: { if !$0 { store.problem = nil } })) {
             Button("OK") { store.problem = nil }
         } message: { Text(store.problem ?? "") }
-        .onChange(of: phase) { _, phase in if phase == .active { store.sendPacket() } }
     }
 
     private func timeOnSelectedDay() -> Date {
