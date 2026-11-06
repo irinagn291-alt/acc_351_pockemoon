@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02A5396F34DD57B9EAE99717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BE944BA2265E4D440468EE /* Assets.xcassets */; };
+		07C5C5F99CD15A21F1216FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EF1401836DE04003CCFD75 /* Assets.xcassets */; };
 		1089BEB9C3A4ECBD45ADC272 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918FE274BC6AE8BD028710F7 /* Journal.swift */; };
 		1647BDC2914A3FAFC8BBCEE9 /* OfflineProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 34EEF89907EC292A62BCC6DE /* OfflineProducts.json */; };
 		16658285CFF10BCD2D551845 /* FoodScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081D4D1E05DE1CC5FA6E369 /* FoodScanner.swift */; };
@@ -94,6 +95,7 @@
 		5C55F8AC0601162D5431B3E1 /* RationRhythmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RationRhythmApp.swift; sourceTree = "<group>"; };
 		5D03CAFF1F585A45D424BA50 /* RhythmWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmWatch.swift; sourceTree = "<group>"; };
 		5D6B6E2C8E28FA6E368EC5E2 /* RationRhythm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RationRhythm.entitlements; sourceTree = "<group>"; };
+		67EF1401836DE04003CCFD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69BE944BA2265E4D440468EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BEC5708A1C38218BB3FE57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		918FE274BC6AE8BD028710F7 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				B279C17DE557BC744C4D1BD2 /* Common */,
 				43184A8973CE5A99E2406894 /* Phone */,
+				37F9BA44FA2FF3FF374055A2 /* RationRhythmWatch */,
 				A2C10F0C56E65D3D15C22311 /* SharedCatalog */,
 				254F7716C23CE246B7569CB2 /* UITests */,
 				DF9D11752F9A84B5E636C0A3 /* Watch */,
@@ -148,6 +151,14 @@
 				1749295E4D5D48AC3466DA8D /* RationRhythmWidget.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		37F9BA44FA2FF3FF374055A2 /* RationRhythmWatch */ = {
+			isa = PBXGroup;
+			children = (
+				67EF1401836DE04003CCFD75 /* Assets.xcassets */,
+			);
+			path = RationRhythmWatch;
 			sourceTree = "<group>";
 		};
 		43184A8973CE5A99E2406894 /* Phone */ = {
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF04A67609D6771610C1A0FF /* Assets.xcassets in Resources */,
+				07C5C5F99CD15A21F1216FA5 /* Assets.xcassets in Resources */,
 				46C0589494F08D8CC69F70AA /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_KEY_CFBundleDisplayName = PockeMoon;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_WKApplication = YES;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.rationrhythm.journal;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -677,10 +691,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_KEY_CFBundleDisplayName = PockeMoon;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_WKApplication = YES;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.rationrhythm.journal;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.rationrhythm.journal.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

@@ -1,4 +1,4 @@
-<!-- gf-brief source=d23b16fc49ad286d42b1bba56a54f0f79ae1be0eab6e5273017d6453bbed7a2b written=2026-11-07T00:29:28+03:00 -->
+<!-- gf-brief source=d47cadf2058e4a65d90c5980351718ce10a9b5fa3224b797f39369c76c2ff7b7 written=2026-11-07T00:30:19+03:00 -->
 # PockeMoon
 
 ## What it is
