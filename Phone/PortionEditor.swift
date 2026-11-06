@@ -55,12 +55,16 @@ struct PortionEditor: View {
                 }.padding(18).rhythmPanel(radius: 22)
                 if let weight {
                     let nutrients = portion.per100.scaled(weight / 100)
+                    let protein = number(nutrients.protein, precision: 1)
+                    let fat = number(nutrients.fat, precision: 1)
+                    let carbs = number(nutrients.carbs, precision: 1)
+                    let macroSummary = "P \(protein) g   ·   F \(fat) g   ·   C \(carbs) g"
                     VStack(alignment: .leading, spacing: 12) {
                       HStack {
                         Text("Portion energy").font(.headline)
                         Spacer(); Text(number(nutrients.kcal) + " kcal").bold().foregroundStyle(Ink.blue)
                     }
-                    Text("P " + number(nutrients.protein, precision: 1) + " g   ·   F " + number(nutrients.fat, precision: 1) + " g   ·   C " + number(nutrients.carbs, precision: 1) + " g")
+                    Text(macroSummary)
                         .font(.subheadline.monospacedDigit()).foregroundStyle(Ink.muted)
                     }.padding(18).rhythmPanel()
                 }
